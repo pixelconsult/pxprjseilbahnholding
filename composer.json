@@ -1,0 +1,29 @@
+{
+  "name": "pixelconsult/pxprjseilbahnholding",
+  "type": "typo3-cms-extension",
+  "description": "ite and project specific extension for OÖ Seilbahnholding",
+  "homepage": "https://gitlab.pixelconsult.at:8081/seilbahnholding/pxprjseilbahnholding/wikis/home",
+  "support": {
+    "issues": "https://gitlab.pixelconsult.at:8081/seilbahnholding/pxprjseilbahnholding/issues"
+  },
+  "keywords": ["TYPO3","CMS","PixelConsult", "Seilbahnholding"],
+  "authors": [
+    {
+      "name": "Andreas Stieger",
+      "email": "ast@pixelconsult.at",
+      "role": "Developer",
+      "homepage": "https://www.pixelconsult.at"
+    }
+  ],
+  "license": ["GPL-2.0+"],
+  "version": "1.0.0",
+  "require": {
+    "typo3/cms-core": ">=10.4.0 <10.4.99"
+  },
+  "autoload": {
+    "psr-4": {
+      "Pixelconsult\\Pxbase\\": "Classes/"
+    }
+  }
+
+}
